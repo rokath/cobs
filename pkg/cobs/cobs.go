@@ -45,9 +45,9 @@ func CDecode(o, i []byte) (n int, _ error) {
 func Decode(dec, cobs []byte) (n int, e error) {
 
 	for len(cobs) > 0 {
-		cnt := cobs[0] - 1
+		cnt := int(cobs[0] - 1)
 		cobs = cobs[1:]
-		if int(cnt) > len(cobs) {
+		if cnt > len(cobs) {
 			e = errors.New("inconsistent COBS packet")
 			return
 		}
