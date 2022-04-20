@@ -18,7 +18,7 @@
 - [COBS](#cobs)
   - [1. <a name='AboutTheproject'></a>About The project](#1-about-the-project)
   - [2. <a name='COBSSpecification'></a>COBS Specification](#2-cobs-specification)
-  - [3. <a name='COCScode'></a>COBS Implementation- COBS](#3-cobs-implementation--cobs)
+  - [3. <a name='COCScode'></a>COBS Implementation](#3-cobs-implementation)
   - [4. <a name='GettingStarted'></a>Getting Started](#4-getting-started)
     - [4.1. <a name='Prerequisites'></a>Prerequisites](#41-prerequisites)
     - [4.2. <a name='Installation'></a>Installation](#42-installation)
@@ -52,7 +52,7 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-##  3. <a name='COCScode'></a>COBS Implementation- [COBS](#cobs)
+##  3. <a name='COCScode'></a>COBS Implementation
   
 * See [./pkg/cobs/](./pkg/cobs/) folder
 
@@ -130,7 +130,7 @@ Project Link: [https://github.com/rokath/COBS](https://github.com/rokath/COBS)
 ###  7.1. <a name='Acknowledgments'></a>Acknowledgments
 
 * [https://pypi.org/project/cobs/](https://pypi.org/project/cobs/)
-* [[COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)
+* [https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
