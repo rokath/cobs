@@ -42,7 +42,6 @@
 
 This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing) implementation in **Go** and **C** with tests.
 
-* COBS is an implementation of [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing) in **C** and **Go**.
 * The **C** code copied from Wikipedia and adapted.
 * The **Go** code was written from scratch after reviewing other implementations.
 
