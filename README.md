@@ -66,7 +66,7 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * Add [./pkg/cobs/cobs.c](./pkg/cobs/cobs.c) to your embedded project and use function `COBSEncode` to convert a buffer into COBS format.
 * After transmitting one (or more) COBS package(s) transmit a 0-delimiter byte.
 * Encoding is currently not implemented in **Go**, but its is no big deal to write an encoder in **Go** or an other language of your choice using the documentation.
-* Anyway yo can encode inside **Go** using function CEncode, which is a **Go** wrapper for the **C** COBSEncode function .
+* Anyway you can encode inside **Go** using function CEncode, which is a **Go** wrapper for the **C** COBSEncode function .
 * Contributions are appreciated.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
