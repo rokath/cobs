@@ -81,8 +81,8 @@ func TestCEncodeCDecode256(t *testing.T) {
 	for i := 0; i < 10000; i++ {
 		length := rand.Intn(max)
 		datBuf := make([]byte, max)
-		encBuf := make([]byte, 2*max) // max 1 + (1+1/32)*len) ~= 1.04 * len
-		decBuf := make([]byte, 2*max) // max 1 + (1+1/32)*len) ~= 1.04 * len
+		encBuf := make([]byte, 2*max)
+		decBuf := make([]byte, 2*max)
 		for i := 0; i < length; i++ {
 			b := uint8(rand.Intn(256)) // 0, ..., 0xFF
 			datBuf[i] = b
@@ -104,8 +104,8 @@ func TestCEncodeDecode256(t *testing.T) {
 	for i := 0; i < 10000; i++ {
 		length := rand.Intn(max)
 		datBuf := make([]byte, max)
-		encBuf := make([]byte, 2*max) // max 1 + (1+1/32)*len) ~= 1.04 * len
-		decBuf := make([]byte, 2*max) // max 1 + (1+1/32)*len) ~= 1.04 * len
+		encBuf := make([]byte, 2*max)
+		decBuf := make([]byte, 2*max)
 		for i := 0; i < length; i++ {
 			b := uint8(rand.Intn(256)) // 0, ..., 0xFF
 			datBuf[i] = b
