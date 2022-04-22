@@ -86,9 +86,10 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 <!-- ROADMAP -->
 ###  4.3. <a name='Roadmap'></a>Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+* [x] Add Changelog
+* [x] Add back to top links
+* [ ] Add **Go** Reader interface
+* [ ] Add Additional Templates w/ Examples
 
 See the [open issues](https://github.com/rokath/COBS/issues) for a full list of proposed features (and known issues).
 
