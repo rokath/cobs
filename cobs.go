@@ -4,7 +4,7 @@ package cobs
 // #include <stddef.h>
 // #include <stdint.h>
 // #include "cobs.h"
-// #cgo CFLAGS: -g -Wall -flto
+// #cgo CFLAGS: -g -Wall
 import "C"
 import (
 	"errors"
