@@ -49,7 +49,7 @@ func (p *decoder) singleRead(buffer []byte) (n int, e error) {
 	}
 	tmp := make([]byte, 4*len(before))
 	n, e = Decode(tmp, before)
-	copy(buffer, tmp[len(tmp)-n:])
+	copy(buffer, tmp[:n])
 	p.iCnt = copy(p.iBuf, after)
 	return
 }
@@ -79,7 +79,7 @@ func (p *decoder) multiRead(buffer []byte) (n int, e error) {
 				continue
 			}
 		}
-		decoded := tmp[len(tmp)-cnt:]
+		decoded := tmp[:cnt]
 		n += copy(buffer[n:], decoded)
 	}
 	p.iCnt = 0

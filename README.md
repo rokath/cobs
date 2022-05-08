@@ -56,7 +56,7 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * Run `go vet ./...` to check build environment.
 * Run `go test ./...` to perform tests. Can take a few seconds.
 
-* Add [./cobs.c](./cobs.c) to your embedded project and use function `COBSEncode` to convert a buffer into COBS format. Or use function `COBSDecode` for the other direction.
+* Add [cobs.c](./cobs.c) to your embedded project and use function `COBSEncode` to convert a buffer into COBS format. Or use function `COBSDecode` for the other direction.
 * After transmitting one (or more) COBS package(s) transmit a 0-delimiter byte.
 * Encoding is currently not implemented in **Go**, but its is no big deal to write an encoder in **Go** or an other language of your choice using the documentation.
 * Anyway you can encode inside **Go** using function CEncode, which is a **Go** wrapper for the **C** COBSEncode function .
@@ -102,7 +102,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ##  5. <a name='License'></a>License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
