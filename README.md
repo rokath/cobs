@@ -42,6 +42,8 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * The **C** code is copied from Wikipedia and adapted. Some other implementations did not pass all tests.
 * The **Go** code was written from scratch after reviewing other implementations.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ##  2. <a name='COBSSpecification'></a>COBS Specification
 
 * See [https://pythonhosted.org/cobs/cobs.cobs.html](https://pythonhosted.org/cobs/cobs.cobs.html).
@@ -60,21 +62,16 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * Anyway you can encode inside **Go** using function CEncode, which is a **Go** wrapper for the **C** COBSEncode function .
 * Contributions are appreciated.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ###  3.1. <a name='Prerequisites'></a>Prerequisites
 
 * Just a **C** compiler and, for testing, a **Go** installation.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ###  3.2. <a name='Installation'></a>Installation
 
 * To use COBS with **Go** execute `go get github.com/rokath/cobs`
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ROADMAP -->
+
 ###  3.3. <a name='Roadmap'></a>Roadmap
 
 * [x] Add Changelog
@@ -114,8 +111,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Thomas Höhenleitner - <!-- [@twitter_handle](https://twitter.com/twitter_handle) - --> th@seerose.net
 Project Link: [https://github.com/rokath/cobs](https://github.com/rokath/cobs)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ###  6.1. <a name='Acknowledgments'></a>Acknowledgments
