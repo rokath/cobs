@@ -76,7 +76,7 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 * [x] Add Changelog
 * [x] Add back to top links
-* [ ] Add **Go** Reader & Writer interface
+* [x] Add **Go** Reader & Writer interface
 * [ ] Add Additional Templates w/ Examples
 
 See the [open issues](https://github.com/rokath/cobs/issues) for a full list of proposed features (and known issues).
