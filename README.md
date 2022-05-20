@@ -13,23 +13,6 @@
   <summary>Table of Contents</summary>
   <ol>
 
-
-<!--
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokath/cobs/goreleaser)
-![GitHub All Releases](https://img.shields.io/github/downloads/rokath/cobs/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/rokath/cobs)
-![GitHub commits since latest release](https://img.shields.io/github/commits-since/rokath/cobs/latest)
--->
-
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rokath/cobs)
-![GitHub watchers](https://img.shields.io/github/watchers/rokath/cobs?label=watch)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rokath/cobs)](https://goreportcard.com/report/github.com/rokath/cobs)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![test](https://github.com/shogo82148/actions-goveralls/workflows/test/badge.svg?branch=main)](https://coveralls.io/github/rokath/cobs)
-[![Coverage Status](https://coveralls.io/repos/github/rokath/cobs/badge.svg?branch=master)](https://coveralls.io/github/rokath/cobs?branch=master)
-![GitHub issues](https://img.shields.io/github/issues/rokath/cobs)
-
-
 <!-- vscode-markdown-toc -->
 * 1. [About The project](#AboutTheproject)
 * 2. [COBS Specification](#COBSSpecification)
@@ -50,6 +33,22 @@
 
   </ol>
 </details>
+
+<!--
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/rokath/cobs/goreleaser)
+![GitHub All Releases](https://img.shields.io/github/downloads/rokath/cobs/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/rokath/cobs)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/rokath/cobs/latest)
+-->
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rokath/cobs)
+![GitHub watchers](https://img.shields.io/github/watchers/rokath/cobs?label=watch)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rokath/cobs)](https://goreportcard.com/report/github.com/rokath/cobs)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![test](https://github.com/shogo82148/actions-goveralls/workflows/test/badge.svg?branch=main)](https://coveralls.io/github/rokath/cobs)
+[![Coverage Status](https://coveralls.io/repos/github/rokath/cobs/badge.svg?branch=master)](https://coveralls.io/github/rokath/cobs?branch=master)
+![GitHub issues](https://img.shields.io/github/issues/rokath/cobs)
+
 
 <!-- ABOUT THE PROJECT -->
 ##  1. <a name='AboutTheproject'></a>About The project
