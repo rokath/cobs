@@ -54,6 +54,10 @@ func Decode(dec, cobs []byte) (n int, e error) {
 		n += copy(dec[n:], cobs[:cnt])
 		cobs = cobs[cnt:]
 		if cnt < 0xfe && len(cobs) > 0 {
+			if n >= len(dec) {
+				e = errors.New("provided decode buffer too small")
+				return
+			}
 			dec[n] = 0
 			n++
 		}

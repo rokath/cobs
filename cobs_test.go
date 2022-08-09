@@ -10,6 +10,11 @@ import (
 	"github.com/tj/assert"
 )
 
+const (
+	max    = 32768
+	rounds = 10
+)
+
 func TestDecodeTestData(t *testing.T) {
 	dec := make([]byte, 1024)
 	for _, x := range testData {
@@ -41,8 +46,7 @@ func TestCEncodeTestData(t *testing.T) {
 
 // TestCEncodeCDecode256 tests on generated random byte numbers for random length 0-32767.
 func TestCEncodeCDecode256(t *testing.T) {
-	max := 32768
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < rounds; i++ {
 		length := rand.Intn(max)
 		datBuf := make([]byte, max)
 		encBuf := make([]byte, 2*max)
@@ -64,8 +68,7 @@ func TestCEncodeCDecode256(t *testing.T) {
 }
 
 func TestCEncodeDecode256(t *testing.T) {
-	max := 32768
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < rounds; i++ {
 		length := rand.Intn(max)
 		datBuf := make([]byte, max)
 		encBuf := make([]byte, 2*max)
