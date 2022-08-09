@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	max    = 32768
-	rounds = 10
+	max    = 1000000
+	rounds = 1000
 )
 
 func TestDecodeTestData(t *testing.T) {
