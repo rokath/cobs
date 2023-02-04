@@ -1,9 +1,8 @@
-module github/rokath/cobs
+module github.com/rokath/cobs
 
 go 1.19
 
 require (
-	github.com/rokath/cobs v0.0.0-20230204192404-a5b383e55711
 	github.com/stretchr/testify v1.8.1
 	github.com/tj/assert v0.0.3
 )
