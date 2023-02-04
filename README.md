@@ -45,8 +45,8 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/rokath/cobs?label=watch)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rokath/cobs)](https://goreportcard.com/report/github.com/rokath/cobs)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![test](https://github.com/shogo82148/actions-goveralls/workflows/test/badge.svg?branch=main)](https://coveralls.io/github/rokath/cobs)
-[![Coverage Status](https://coveralls.io/repos/github/rokath/cobs/badge.svg?branch=master)](https://coveralls.io/github/rokath/cobs?branch=master)
+[![test](https://github.com/shogo82148/actions-goveralls/workflows/test/badge.svg?branch=main)](https://coveralls.io/github.com/rokath/cobs)
+[![Coverage Status](https://coveralls.io/repos/github.com/rokath/cobs/badge.svg?branch=master)](https://coveralls.io/github.com/rokath/cobs?branch=master)
 ![GitHub issues](https://img.shields.io/github/issues/rokath/cobs)
 
 
