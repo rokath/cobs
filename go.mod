@@ -1,4 +1,4 @@
-module github/rokath/cobs
+module github.com/rokath/cobs
 
 go 1.18
 

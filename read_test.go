@@ -3,9 +3,10 @@ package cobs_test
 
 import (
 	"bytes"
-	"github/rokath/cobs"
 	"io"
 	"testing"
+
+	"github.com/rokath/cobs"
 
 	"github.com/stretchr/testify/assert"
 )

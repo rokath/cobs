@@ -3,9 +3,10 @@ package cobs_test
 import (
 	"bytes"
 	"fmt"
-	"github/rokath/cobs"
 	"math/rand"
 	"testing"
+
+	"github.com/rokath/cobs"
 
 	"github.com/tj/assert"
 )
