@@ -71,9 +71,9 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 | Folder | Content |
 | - | - |
-| src | C sources ready to be used in any C project |
-| go  | **Go** source |
-| cgo | **Go** project for testing |
+| [src](./src) | C sources ready to be used in any C project |
+| [go](./go)  | **Go** source |
+| [cgo](./cgo) | **Go** project for testing |
 
 
 <!-- GETTING STARTED -->
