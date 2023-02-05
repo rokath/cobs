@@ -1,11 +1,6 @@
 // Package cobs implenments COBS (https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing).
 package cobs
 
-// #include <stddef.h>
-// #include <stdint.h>
-// #include "cobs.h"
-// #cgo CFLAGS: -g -Wall
-import "C"
 import (
 	"errors"
 )

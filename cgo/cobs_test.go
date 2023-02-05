@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"testing"
 
-	cobs "github.com/rokath/cobs/c"
+	cobs "github.com/rokath/cobs/cgo"
 
 	"github.com/tj/assert"
 )

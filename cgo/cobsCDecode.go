@@ -3,7 +3,8 @@ package cobs
 
 // #include <stddef.h>
 // #include <stdint.h>
-// #include "cobs.h"
+// #include "../src/cobs.h"
+// #include "../src/cobsDecode.c"
 // #cgo CFLAGS: -g -Wall
 import "C"
 import (

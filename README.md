@@ -14,17 +14,18 @@
   <ol>
 
 <!-- vscode-markdown-toc -->
-* 1. [About The project](#AboutTheproject)
-* 2. [COBS Specification](#COBSSpecification)
-* 3. [Getting Started](#GettingStarted)
-	* 3.1. [Prerequisites](#Prerequisites)
-	* 3.2. [Installation](#Installation)
-	* 3.3. [Roadmap](#Roadmap)
-* 4. [Contributing](#Contributing)
-* 5. [License](#License)
-* 6. [Contact](#Contact)
-	* 6.1. [Acknowledgments](#Acknowledgments)
-
+- [COBS](#cobs)
+  - [1. About The project](#1-about-the-project)
+  - [2. COBS Specification](#2-cobs-specification)
+  - [3. Folder Information](#3-folder-information)
+  - [4. Getting Started](#4-getting-started)
+    - [4.1. Prerequisites](#41-prerequisites)
+    - [4.2. Installation](#42-installation)
+    - [4.3. Roadmap](#43-roadmap)
+  - [5. Contributing](#5-contributing)
+  - [6. License](#6-license)
+  - [7. Contact](#7-contact)
+    - [7.1. Acknowledgments](#71-acknowledgments)
 <!-- vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
@@ -66,8 +67,17 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+##  3. <a name='FolderInformation'></a>Folder Information
+
+| Folder | Content |
+| - | - |
+| src | C sources ready to be used in any C project |
+| go  | **Go** source |
+| cgo | **Go** project for testing |
+
+
 <!-- GETTING STARTED -->
-##  3. <a name='GettingStarted'></a>Getting Started
+##  4. <a name='GettingStarted'></a>Getting Started
 
 * Clone the project with `git clone git@github.com:rokath/cobs.git` for example.
 * Run `go vet ./...` to check build environment.
@@ -79,11 +89,11 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * Anyway you can encode inside **Go** using function CEncode, which is a **Go** wrapper for the **C** COBSEncode function .
 * Contributions are appreciated.
 
-###  3.1. <a name='Prerequisites'></a>Prerequisites
+###  4.1. <a name='Prerequisites'></a>Prerequisites
 
 * Just a **C** compiler and, for testing or, if using, a **Go** installation.
 
-###  3.2. <a name='Installation'></a>Installation
+###  4.2. <a name='Installation'></a>Installation
 
 * To use COBS with **Go** execute `go get github.com/rokath/cobs`
 * In your **Go** file: `include( cobs github.com/rokath/cobs/go )`, when using the **Go** code (decoding only).
@@ -91,7 +101,7 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 <!-- ROADMAP -->
 
-###  3.3. <a name='Roadmap'></a>Roadmap
+###  4.3. <a name='Roadmap'></a>Roadmap
 
 * [x] Add Changelog
 * [x] Add back to top links
@@ -103,7 +113,7 @@ See the [open issues](https://github.com/rokath/cobs/issues) for a full list of 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-##  4. <a name='Contributing'></a>Contributing
+##  5. <a name='Contributing'></a>Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -121,20 +131,20 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
-##  5. <a name='License'></a>License
+##  6. <a name='License'></a>License
 
 Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
-##  6. <a name='Contact'></a>Contact
+##  7. <a name='Contact'></a>Contact
 
 Thomas Höhenleitner - <!-- [@twitter_handle](https://twitter.com/twitter_handle) - --> th@seerose.net
 Project Link: [https://github.com/rokath/cobs](https://github.com/rokath/cobs)
 
 <!-- ACKNOWLEDGMENTS -->
-###  6.1. <a name='Acknowledgments'></a>Acknowledgments
+###  7.1. <a name='Acknowledgments'></a>Acknowledgments
 
 * [https://pypi.org/project/cobs/](https://pypi.org/project/cobs/)
 * [https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing)
