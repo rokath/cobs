@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	cobs "github.com/rokath/cobs/c"
+	cobs "github.com/rokath/cobs/go"
 
 	"github.com/stretchr/testify/assert"
 )

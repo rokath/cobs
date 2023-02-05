@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"testing"
 
-	cobs "github.com/rokath/cobs/C"
+	cobs "github.com/rokath/cobs/c"
 
 	"github.com/stretchr/testify/assert"
 )

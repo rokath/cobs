@@ -69,8 +69,9 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 <!-- GETTING STARTED -->
 ##  3. <a name='GettingStarted'></a>Getting Started
 
+* Clone the project with `git clone git@github.com:rokath/cobs.git` for example.
 * Run `go vet ./...` to check build environment.
-* Run `go test ./...` to perform tests. Can take a few seconds.
+* Run `go test ./...` to perform tests. Can take a minute.
 
 * Add [cobs.c](./cobs.c) to your embedded project and use function `COBSEncode` to convert a buffer into COBS format. Or use function `COBSDecode` for the other direction.
 * After transmitting one (or more) COBS package(s) transmit a 0-delimiter byte.
@@ -80,11 +81,13 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 
 ###  3.1. <a name='Prerequisites'></a>Prerequisites
 
-* Just a **C** compiler and, for testing, a **Go** installation.
+* Just a **C** compiler and, for testing or, if using, a **Go** installation.
 
 ###  3.2. <a name='Installation'></a>Installation
 
 * To use COBS with **Go** execute `go get github.com/rokath/cobs`
+* In your **Go** file: `include( cobs github.com/rokath/cobs/go )`, when using the **Go** code (decoding only).
+* In your **Go** file: `include( cobs github.com/rokath/cobs/c )`, when using the **CGO** code (encoding and decoding).
 
 <!-- ROADMAP -->
 
