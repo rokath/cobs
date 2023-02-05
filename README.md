@@ -167,7 +167,7 @@ Project Link: [https://github.com/rokath/cobs](https://github.com/rokath/cobs)
     <a href="https://pypi.org/project/cobs/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rokath/cobs/blob/master">View Code</a>
+    <a href="https://github.com/rokath/cobs">View Code</a>
     ·
     <a href="https://github.com/rokath/cobs/issues">Report Bug</a>
     ·
