@@ -59,6 +59,8 @@ This is a [COBS](https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 * The **C** code is copied from Wikipedia and adapted. Some other implementations did not pass all tests.
 * The **Go** code was written from scratch after reviewing other implementations.
 
+See [TCOBS](https://github.com/rokath/tcobs) as an other possibility.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ##  2. <a name='COBSSpecification'></a>COBS Specification
